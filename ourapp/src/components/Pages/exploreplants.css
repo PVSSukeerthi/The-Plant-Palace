@@ -1,0 +1,71 @@
+.explore {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('expoback.jpg'); 
+    border-radius: 3%;
+  }
+  .explore .ExploreTitle {
+    font-family: cursive;
+    font-size:5px;
+  }
+  
+  .plantList{
+    width: 90vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+  
+  /* PLANT ITEM STYLING */
+  
+  .plant {
+    border-radius: 15px;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px green;
+    border-color: darkseagreen;
+    border-width:5px;
+    background-color: aliceblue;
+    padding-bottom: 70px;
+  }
+  .plant:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .plant div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .plant h1,
+  .plant p {
+    margin-left: 20px;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .plantList {
+      grid-template-columns: 1fr 1fr 1fr 1fr ;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .plantList {
+      grid-template-columns: 1fr;
+    }
+  }
+  .pool{
+    height: 500px;
+  }

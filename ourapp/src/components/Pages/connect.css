@@ -1,0 +1,19 @@
+
+.blogs{
+    background-color: darkcyan;
+    display: flex;
+    border-radius:10%;
+}
+.logo{
+    height:100px;
+    width:100px;
+    padding:10px;
+    border-radius:300%;
+}
+h3{
+    padding:10px;
+}
+h4{
+    padding:10px;
+
+}
