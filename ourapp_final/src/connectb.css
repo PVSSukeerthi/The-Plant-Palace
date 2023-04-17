@@ -1,0 +1,90 @@
+
+  .client_section .client_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 30px;
+    margin-right: 30px;
+
+  }
+  
+  .client_section .client_box {
+    margin-left: 20px;
+    padding-left: 30px;
+    padding-top: 30px;
+    padding-right:10px;;
+    margin-right: 40px;
+    -webkit-box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.1);
+    border-radius:20px;
+    background: url('cadi.jpg'); 
+    width:500px;
+    margin-bottom:40px;
+  }
+  
+  .client_section .client_box .client-id {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display:flexbox;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  .client_section .client_box .client-id .img-box img {
+    display: flex;
+    height:80px;
+    width:80px;
+    border-radius:100%;
+  }
+  
+  .client_section .client_box .client-id .name {
+    margin-left:0;
+   
+  }
+  
+  .client_section .client_box .client-id .name h5 {
+    font-weight: bold;
+    margin:0;
+    padding: 5px;
+  }
+  
+  .client_section .client_box .client-id .name p {
+    color: #24d278;
+    margin:0;
+    font-size: 20px;
+
+  }
+  
+  .client_section .client_box .detail {
+    margin-top: 10px;
+    font-size:20px;
+  }
+  
+  .client_section .client_box:hover {
+    background-color: #f3f3f3;
+    -webkit-box-shadow: none;
+            box-shadow: none;
+  }
+  
+  .client_section .client_box:hover .arrow_img {
+    background-image: url(./arrow.jpg);
+    transform: scale(1.2);
+  }
+  
+  
+  .client_section .client_box .arrow_img {
+    width: 40px;
+    height: 40px;
+    background-image: url(./arrow.jpg);
+    background-size: 25px;
+    background-repeat: no-repeat;
+  }
+  .tt{
+    text-align: center;
+    font-size:xxx-large;
+  }
+ 
